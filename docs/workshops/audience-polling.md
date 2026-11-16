@@ -96,9 +96,15 @@ The exact keys available for selecting an answer depend on the focused control a
 
 ## Results and visibility
 
-Quizza supports aggregate results for question types such as word clouds, open-text responses, and scale averages. Public question aggregates are withheld while a session is running, and result visibility follows the session's answer-release and leaderboard policies.
+- The facilitator (host) can see all question results throughout the session.
+- During a live session, participants do not receive aggregate question results while the session is still running.
+- Participants may see the leaderboard during a live question reveal, depending on the quiz's leaderboard settings.
+- For scheduled sessions, a participant who has completed the quiz can access aggregate results even if the session is still open.
+- After the session ends, participants can access results according to the quiz's answer-reveal and leaderboard policies.
+- Correct-answer information is only shown when the answer-reveal policy permits it.
+- The host can access the full results page and export results as CSV or JSON.
 
-Do not assume that every participant can see every response or aggregate. The facilitator should review the host and results views to understand what is available for the configured session.
+For this workshop, the facilitator should reveal each question, discuss the displayed aggregate with the group, and then move to the next question. Word-cloud entries, open-text responses, and scale averages are displayed on the host's reveal screen.
 
 ## Current capabilities and limitations
 
